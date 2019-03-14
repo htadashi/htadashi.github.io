@@ -7,6 +7,21 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="stylesheet" href="bibtex.css" type="text/css" />
 <title>Publications</title>
+<script type="text/javascript">
+<!--
+// Toggle Display of BibTeX
+function toggleBibtex(articleid) {
+	var bib = document.getElementById('bib_'+articleid);
+	if (bib) {
+		if(bib.className.indexOf('bibtex') != -1) {
+		bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+		}
+	} else {
+		return;
+	}
+}
+-->
+</script>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -422,18 +437,10 @@ nov
 <!-- Item: MIK:18 -->
 <li ><p>
 Henrique M. Taira Menegaz, João Y. Ishihara and Hugo T. M. Kussaba. &ldquo;Unscented Kalman Filters for Riemannian
-State-Space Systems,&rdquo; to appear in <i>IEEE Transactions on Automatic Control</i>. 
-</p>
-</li>
-<!-- Item: KIM:18 -->
-<li ><p>
-Hugo T. M. Kussaba, João Y. Ishihara and Leonardo R.A.X Menezes. &ldquo;A Robust Unscented Transformation for Uncertain Moments,&rdquo; to 
-appear in <i>Journal of the Franklin Institute</i>.
+State-Space Systems,&rdquo; to appear in 2018 in <i>IEEE Transactions on Automatic Control</i>. 
 </p>
 </li>
 </ol>
-
-
 <!-- Item: IKB:15 -->
 <!-- <li ><p> -->
 <!-- João Yoshiyuki Ishihara, Hugo T. M. Kussaba and Renato Alves Borges. &ldquo;Existence of continuous or constant Finsler's variables for parameter dependent systems,&rdquo; -->
@@ -510,6 +517,14 @@ robust rigid-body pose kinematic and dynamic stabilization,&rdquo; to <i>Automat
 2018.
 </p>
 </li>
+<!-- Item: KIM:18 -->
+<li ><p>
+Hugo T. M. Kussaba, João Y. Ishihara and Leonardo R.A.X Menezes. &ldquo;A Robust Unscented Transformation for Uncertain Moments,&rdquo; to <i>Journal of the Franklin Institute</i>, 
+
+2018.
+</p>
+</li>
+</li>
 <!-- Item: KIB:19 -->
 <li ><p>
 Hugo T. M. Kussaba, João Y. Ishihara and Renato A. Borges. &ldquo;A novel LMI condition for the existence of a common quadratic Lyapunov function based on the Elimination Lemma,&rdquo; to <i>IEEE Control System Letters</i>, 
@@ -519,7 +534,7 @@ Hugo T. M. Kussaba, João Y. Ishihara and Renato A. Borges. &ldquo;A novel LMI c
 </li>
 </ol><div id="footer">
 <div id="footer-text">
-Page generated 2019-02-16 00:52:27 UTC, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2019-01-17 18:31:00 -02, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
