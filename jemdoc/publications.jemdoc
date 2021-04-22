@@ -1,0 +1,9 @@
+# jemdoc: menu{MENU}{publications.html}
+# jemdoc: addcss{bibtex.css}
+= Publications
+
+== Published
+#includeraw{published.html}
+
+== Thesis
+#includeraw{theses.html}
