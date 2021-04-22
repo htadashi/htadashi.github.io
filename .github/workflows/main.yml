@@ -26,8 +26,9 @@ jobs:
       # Runs jemdoc and generate html files
       - name: Run a multi-line script
         run: |
-          python ./jemdoc/jemdoc.py -c ./jemdoc/bibtex.conf -o index.html ./jemdoc/index.jemdoc
-          python ./jemdoc/jemdoc.py -c ./jemdoc/bibtex.conf -o publications.html ./jemdoc/publications.jemdoc
-          python ./jemdoc/jemdoc.py -c ./jemdoc/bibtex.conf -o useful.html ./jemdoc/useful.jemdoc
-          python ./jemdoc/jemdoc.py -c ./jemdoc/bibtex.conf -o teaching.html ./jemdoc/teaching.jemdoc
+          cd ./jemdoc
+          python jemdoc.py -c bibtex.conf -o ../index.html index.jemdoc
+          python jemdoc.py -c bibtex.conf -o ../publications.html publications.jemdoc
+          python jemdoc.py -c bibtex.conf -o ../useful.html useful.jemdoc
+          python jemdoc.py -c bibtex.conf -o ../teaching.html teaching.jemdoc
           
