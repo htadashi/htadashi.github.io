@@ -9,6 +9,7 @@
 - [https://github.com/python-control/python-control Python-Control] - Python module that implements basic operations for analysis and design of feedback control systems.
 - [https://github.com/ilayn/harold Harold] - Another open-source systems and controls toolbox for Python3.
 - [https://github.com/JuliaControl/ControlSystems.jl] - Control system toolbox for [Julia https://julialang.org/].
+- [https://github.com/WolframResearch/GurobiLink GurobiLink] - Gurobi interface with Wolfram Language.
 
 == Didactic and drawing resources:
 === Control theory
