@@ -68,7 +68,7 @@
 
 - [https://github.com/damianavila/RISE RISE] - Turn Jupyter notebooks into slideshow
 
-- [https://observablehq.com/ ObservableHQ] - Interactive notebooks with Javascript
+- [https://observablehq.com/ ObservableHQ] - Interactive notebooks with Javascript. For an interesting example, see [this notebook](https://observablehq.com/@patrickmineault/stabilizing-the-cart-pole-inverse-pendulum-using-lqr). 
 
 - [https://jupyterbook.org/intro.html Jupyter{book}] - Build books with Jupyter
 
