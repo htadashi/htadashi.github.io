@@ -11,7 +11,7 @@
 - [https://github.com/JuliaControl/ControlSystems.jl] - Control system toolbox for [Julia https://julialang.org/].
 - [https://github.com/WolframResearch/GurobiLink GurobiLink] - Gurobi interface with Wolfram Language.
 
-== 🧑‍🏫 Didactic and drawing resources:
+== 🧑‍🏫 Didactic and drawing resources
 === 🚴 Control theory
 
 - [https://resourcium.org/] - A collection of control and automation resources. 
@@ -36,6 +36,12 @@
   -- [https://www.youtube.com/channel/UCTA4wwZkqdBS1CyQR_g6ntw/] - Prof. Luis Aguirre (UFMG), Portuguese only
   -- [https://www.youtube.com/channel/UCm5mt-A4w61lknZ9lCsZtBw/] - Prof. Steve Brunton
   -- [https://www.youtube.com/user/ControlLectures] - Brian Douglas channel
+  
+- 📚 Free books:
+  -- [https://openaccess.blucher.com.br/article-list/9786555502237-591/list Engenharia de Controle: Teoria e Prática] (Portuguese only)
+  -- [http://mtm.ufsc.br/~aleitao/public/reprints/book2008-bl-9788524402715.pdf Introdução Teoria de Controle e Programação Dinâmica] (Portuguese only)
+  -- [http://motion.me.ucsb.edu/book-ctds/ Contraction Theory for Dynamical Systems]
+  -- [Lectures on Network Systems http://motion.me.ucsb.edu/book-lns/]
 
 - [http://controlcartoons.com/] - A cartoon tour of control theory
 
@@ -103,6 +109,6 @@
   -- [https://www.narakeet.com/] - Use markdown syntax to create video clips from images, add captions, and life-like narration audio from your text. (Has Portuguese narration)
   -- [https://www.synthesia.io/] - Automatically redub videos (and even edit the mouth movements) to other languages with A.I. 
 
-== 🔬 Open science and reproducibility resources:
+== 🔬 Open science and reproducibility resources
 - [http://www.sherpa.ac.uk/romeoinfo.html SHERPA] - Database of publisher's archiving policies.
 - [https://ieeeauthorcenter.ieee.org/create-your-ieee-article/use-authoring-tools-and-ieee-article-templates/about-managing-your-data/] - How to share your data and code on IEEE Xplore.
