@@ -25,7 +25,6 @@ jobs:
           python jemdoc.py -c bibtex.conf -o ../index.html index.jemdoc
           python jemdoc.py -c bibtex.conf -o ../publications.html publications.jemdoc
           python jemdoc.py -c bibtex.conf -o ../useful.html useful.jemdoc
-          python jemdoc.py -c bibtex.conf -o ../teaching.html teaching.jemdoc
           cd ../
     - name: Commit files
       run: |
