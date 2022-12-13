@@ -11,7 +11,7 @@
 - [https://github.com/JuliaControl/ControlSystems.jl] - Control system toolbox for [Julia https://julialang.org/].
 - [https://github.com/WolframResearch/GurobiLink GurobiLink] - Gurobi interface with Wolfram Language.
 
-== 🧑‍🏫 Didactic and drawing resources
+== 🏫 Didactic and drawing resources
 === 🚴 Control theory
 
 - [https://resourcium.org/] - A collection of control and automation resources. 
@@ -65,6 +65,8 @@
 - [https://roboton.io/ roboton.io] - Roboton.io is a virtual robot-competition platform that can be used entirely from the browser.
 
 === 🔋Electronics
+- [https://www.withdiode.com/] - 3D circuit simulator. Can be used to program Arduino boards. 
+
 - [https://www.falstad.com/circuit/] - Online analog circuit simulator
 
 - [https://kazuhikoarase.github.io/simcirjs/ simcirjs] - Digital circuit simulator in HTML5 and Javascript
