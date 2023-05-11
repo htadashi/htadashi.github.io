@@ -1,8 +1,9 @@
 # jemdoc: menu{MENU}{publications.html}
 # jemdoc: addcss{bibtex.css}
 = Publications
+Metrics available at [https://www.semanticscholar.org/author/Hugo-Tadashi-M.-Kussaba/145778822 \[Semantic Scholar\]]\n
 
-== Published
+= List of publications
 #includeraw{published.html}
 
 == Thesis
