@@ -5,6 +5,7 @@
 - [http://www.gnu.org/software/octave/ Octave] - Free alternative to MATLAB, with a language that is mostly compatible.
     -- [https://github.com/jupyter-xeus/xeus-octave/ xeus-octave] - Jupyter kernel for Octave
 - [https://mathics.github.io/ Mathics] - Free alternative to Mathematica, with a language that is mostly compatible.
+- [https://jerryi.github.io/wljs-docs/] - Freeware web-based Notebook Interface for Wolfram Language.
 - [http://matheclipse.org/] - computer algebra language and Java symbolic math library.
 - [http://peterwittek.com/sdp-in-python.html Semidefinite programming in Python] - A collection of Python libraries that can be used to solve LMIs and other optimization problems.
 - [https://github.com/python-control/python-control Python-Control] - Python module that implements basic operations for analysis and design of feedback control systems.
