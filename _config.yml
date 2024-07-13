@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Hugo Tadashi
 middle_name: M.
 last_name: Kussaba
-email: hugo.kussaba@tum.de
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Hugo Tadashi personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -111,8 +111,8 @@ x_username: TadashiTech # your X handle
 youtube_id: HTKussaba # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: #>
+  #You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
