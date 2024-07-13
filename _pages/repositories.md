@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: Code
-description: Some featured repositories from academia and personal projects.
+title: code
+description: Featured repositories from academia and personal projects.
 nav: true
 nav_order: 4
 ---
@@ -18,6 +18,7 @@ nav_order: 4
 </div>
 {% endif %}
 
+---
 ## Personal projects
 
 {% if site.data.repositories.github_personal_repos %}
@@ -29,8 +30,8 @@ nav_order: 4
 </div>
 {% endif %}
 
-
-## GitHub status
+---
+## GitHub stats
 
 {% if site.data.repositories.github_users %}
 
