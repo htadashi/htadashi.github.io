@@ -1,10 +1,11 @@
-github_users:
-  - htadashi
+github_users:  
 
 repo_description_lines_max: 2
 
-github_repos:
+github_academia_repos:
   - htadashi/mpYALMIP-neos
+
+github_personal_repos:
   - htadashi/GPT3-Event-Scheduler
   - htadashi/CalculadoraCidadao.gs
 
