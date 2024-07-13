@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Researcher and software developer.<strong>Previously:</strong> <a href="https://www.mirmi.tum.de/en/mirmi/home/">TUM-MIRMI</a> / <a href="https://usepicnic.com/br">UsePicnic</a> / <a href="https://vtex.com/">VTEX</a>
+subtitle: PhD Researcher and Software Developer. <strong>Previously:</strong> <a href="https://www.mirmi.tum.de/en/mirmi/home/">TUM-MIRMI</a> / <a href="https://usepicnic.com/br">UsePicnic</a> / <a href="ht1tps://vtex.com/">VTEX</a>
 
 profile:
   align: right
