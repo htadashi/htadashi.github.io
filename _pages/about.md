@@ -20,8 +20,8 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my personal web page.
 
-I am a researcher with a PhD in Control Theory. My research interests include optimization, control theory, and machine learning.
+I am a researcher with a PhD in Control Theory. My research interests include control theory, optimization, machine learning 
+and their many applications to robotic (and non-robotic) systems.
 
-In addition to my research, I am a software developer with extensive experience in building and auditing Ethereum smart contracts.
-
-I am also a technical writer, skilled in creating comprehensive documentation for large codebases and writing fun posts for blogs/podcasts.
+In addition to my research, I am a software developer and technical writer with +3 years experience in the development and 
+[auditing](https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/5183943121751891888730323202675392853254202754381240403961552823977257205960) of smart contracts.
