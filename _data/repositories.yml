@@ -3,6 +3,7 @@ repo_description_lines_max: 2
 
 github_academia_repos:
   - htadashi/mpYALMIP-neos
+  - usePicnic/picnic-contracts
 
 github_personal_repos:
   - htadashi/GPT3-Event-Scheduler

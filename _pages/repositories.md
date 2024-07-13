@@ -2,12 +2,13 @@
 layout: page
 permalink: /repositories/
 title: code
-description: Featured repositories from academia and personal projects.
+description: Featured personal, academic and work projects. 
 nav: true
 nav_order: 4
 ---
 
-## Academia
+---
+## Academia and work-related
 
 {% if site.data.repositories.github_academia_repos %}
 
@@ -40,8 +41,6 @@ nav_order: 4
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
 </div>
-
----
 
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
