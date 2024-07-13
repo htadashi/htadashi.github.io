@@ -1,5 +1,4 @@
-github_users:  
-
+github_users: htadashi
 repo_description_lines_max: 2
 
 github_academia_repos:
@@ -7,5 +6,6 @@ github_academia_repos:
 
 github_personal_repos:
   - htadashi/GPT3-Event-Scheduler
+  - htadashi/GPT3-AHK/
   - htadashi/CalculadoraCidadao.gs
 

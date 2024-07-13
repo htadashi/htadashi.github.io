@@ -1,13 +1,36 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Featured code repositories
+title: Code
+description: Some featured repositories from academia and personal projects.
 nav: true
 nav_order: 4
 ---
 
-## GitHub users
+## Academia
+
+{% if site.data.repositories.github_academia_repos %}
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_academia_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
+## Personal projects
+
+{% if site.data.repositories.github_personal_repos %}
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_personal_repos %}
+    {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+## GitHub status
 
 {% if site.data.repositories.github_users %}
 
@@ -33,26 +56,4 @@ nav_order: 4
 
 {% endfor %}
 {% endif %}
-{% endif %}
-
-## Code related to academic publications
-
-{% if site.data.repositories.github_academia_repos %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_academia_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
-
-## Code related to personal projects
-
-{% if site.data.repositories.github_personal_repos %}
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_personal_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
 {% endif %}
