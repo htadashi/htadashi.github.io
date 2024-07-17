@@ -247,6 +247,9 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.notes %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Notes</a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
@@ -327,6 +330,13 @@
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
+      </div>
+    {% endif %}
+
+    {% if entry.notes %}
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>{{ entry.notes }}</p>
       </div>
     {% endif %}
 
